@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/event"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_upcoming"
+        android:layout_width="0dp"
+        android:layout_height="190sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8sp"
+        android:background="#80000000"
+        android:paddingTop="70sp"
+        android:text="@string/upcoming_events"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_schedule"
+        android:layout_width="0dp"
+        android:layout_height="190sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8sp"
+        android:background="@color/colorPrimary"
+        android:padding="65sp"
+        android:text="@string/schedule"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_upcoming"
+        app:layout_constraintTop_toBottomOf="@+id/tv_upcoming" />
+
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="0dp"
+        android:layout_height="190sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4sp"
+        android:background="#80000000"
+        android:padding="70sp"
+        android:text="@string/add_event"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_schedule"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_schedule"
+        app:layout_constraintTop_toBottomOf="@+id/tv_schedule"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
