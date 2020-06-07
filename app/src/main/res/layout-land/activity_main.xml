@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/event"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
-        android:background="#CB000000"
+        android:background="#80000000"
         android:paddingTop="30sp"
         android:text="@string/upcoming_events"
         android:textAlignment="center"
@@ -47,7 +48,7 @@
         android:layout_height="100sp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#CB000000"
+        android:background="#80000000"
         android:padding="30sp"
         android:text="@string/add_event"
         android:textAlignment="center"
